@@ -35,7 +35,5 @@ class TestSparkCalculator(unittest.TestCase):
         self.assertEqual(SparkCalculator.sparkCalculator(-5040, 10, -4), "You can make a total of -46 draws.")
         self.assertEqual(SparkCalculator.sparkCalculator(-5000, -10, 5), "You can make a total of 23 draws.")
 
-'''
 if __name__ == '__main__':
     unittest.main()
-'''

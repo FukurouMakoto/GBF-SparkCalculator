@@ -20,7 +20,6 @@ def test_for_negative(num):
 		return True
 	else: 
 		return False
-'''
 def main():
 	print('Welcome to Spark Calculator')
 	crystals = input('How many crystals do you have? ')
@@ -34,7 +33,6 @@ def main():
 	print(sparkCalculator(crystals, tix, tenrolls))
 	print(how_many_rolls(total))
 
-
-main()
-'''
+if __name__ == "__main__":
+	main()
 
